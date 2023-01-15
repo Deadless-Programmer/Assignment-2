@@ -241,7 +241,7 @@ button {
   border-radius: 8px;
 }
 .logo-img {
-  margin-top: 25px;
+  margin-top: 26px;
 }
 .Statistics-title {
   font-weight: 600;
@@ -278,6 +278,21 @@ color: #727272;
     margin-top: 80px;
 display: flex;
 justify-content: space-evenly;
+
+}
+/* <!-- Our-Sponspors-style-end-here --> */
+
+/* footer-section-sstyle-start-here */
+footer{
+    width: 100%;
+    margin-top: 120px;
+    font-weight: 400;
+font-size: 18px;
+color: #424242;
+text-align: center;
+background: #FFF4E7;
+border-radius: 8px;
+padding: 8px 0;
 
 }
 
