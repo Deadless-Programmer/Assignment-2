@@ -39,7 +39,6 @@ body {
 }
 /* nab-bar-section-style-end-here */
 
-
 /* header-banner-section-start-here */
 
 .header-title {
@@ -74,7 +73,6 @@ body {
 }
 
 /* header-banner-section-end-here */
-
 
 /* Features-container-style-here */
 
@@ -292,6 +290,7 @@ a {
 }
 .service-container {
   color: rgb(0, 0, 0);
+  
 }
 .card-img-title {
   font-size: 35px;
@@ -311,17 +310,21 @@ a {
 .service-tag-line {
   font-size: 16px;
   font-weight: 400;
+  color: #727272;
 }
+hr {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+  }
 .package {
   display: flex;
   justify-content: center;
   gap: 20px;
   font-weight: bold;
 }
-hr {
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 30px;
+.package :hover{
+    color:#FF900E;
 }
 
 .input-container {
