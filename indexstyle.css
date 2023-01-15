@@ -184,7 +184,7 @@ li {
 }
 .btn-body {
   position: absolute;
-  padding-top: 320px;
+  padding-top: 560px;
 
   left: auto;
 }
@@ -370,7 +370,8 @@ input {
 .company-logos {
   margin-top: 80px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 120px;
 }
 /* <!-- Our-Sponspors-style-end-here --> */
 
