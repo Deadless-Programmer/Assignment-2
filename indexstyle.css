@@ -136,7 +136,7 @@ body {
   width: 100%;
   justify-content: center;
   align-items: flex-start;
-  gap: 50px;
+  gap: 10px;
   margin-top: 80px;
 }
 
@@ -181,13 +181,27 @@ body {
 li {
   list-style: none;
 }
-
+.architect-img{
+    
+    /* width: 100px; */
+    margin-left: 40px;
+}
+.btn-img{
+    height: auto;
+    
+    
+}
+.btn-body{
+    position: absolute;
+   padding-top: 320px;
+   
+   left: auto;
+}
 button {
-  padding: 12px 40px;
+  padding: 8px 30px;
   background: #ff900e;
   border-radius: 8px;
   border: none;
-  display: block;
   
 }
 
@@ -203,6 +217,9 @@ button {
   color: #ffffff;
   margin-bottom: 20px;
 }
+
+/* Features-container2-style-end-here */
+
 /* important-note-Some Facts-style-start-here */
 .important-note {
   margin-top: 80px;
@@ -220,7 +237,6 @@ button {
   color: #727272;
 }
 /* important-note-Some-Facts-style-end-here */
-
 
 /* prograce-bar-style-start-here */
 .prograce-bar {
@@ -260,103 +276,102 @@ button {
 /* prograce-bar-style-end-here */
 
 /* <!-- Our-Sponspors-style-start-here --> */
-.sponspors-bar{
-    text-align: center;
-    margin-top: 100px;
+.sponspors-bar {
+  text-align: center;
+  margin-top: 100px;
 }
-.sponspors-ship-title{
-    font-weight: 700;
-font-size: 20px;
-color: #131313;
+.sponspors-ship-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #131313;
 }
-.sponspors-ship-paragraph{
-    font-weight: 400;
-font-size: 14px;
-color: #727272;
+.sponspors-ship-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  color: #727272;
 }
-.company-logos{
-    margin-top: 80px;
-display: flex;
-justify-content: space-evenly;
-
+.company-logos {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
 }
 /* <!-- Our-Sponspors-style-end-here --> */
 
-/* footer-section-sstyle-start-here */
-.card-imag{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    width: 80%;
-    justify-content: space-between;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 120px;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    gap: 180px;
-    border-radius: 8px;
-   
+/* todays-free-service-section-start-here */
+.card-imag {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: flex; */
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 120px;
+  background: #fff1e0;
+  gap: 180px;
+  border-radius: 8px;
 }
-a{
-    text-decoration: none;
-    color: #FF900E;;
+a {
+  text-decoration: none;
+  color: #000000;
 }
-.service-container{
-    color: white;
-    
+.service-container {
+  color: rgb(0, 0, 0);
 }
-.card-img-service-parant{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 40px;
-    margin-bottom: 30px;
-}
-.card-img-title{
+.card-img-title {
     font-size: 35px;
     font-weight: 600;
     margin-top: 30px;
+    text-align: center;
+  }
+.card-img-service-parant {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+ font-size: 16px;
+ font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.input-container{
+    text-align: center;
 }
 
-input{
-    margin-top: 21px;
-    height: 40px;
-    width: 150px;
-    background-color: rgb(1, 0, 2);
-    border: 1px solid white;
-    border-radius: 20px;
-    color: #faf8f6;
-    
-    
-  }
-  ::placeholder{
-    /* font-size: 500px; */
-    color: rgb(255, 254, 254);
-    padding-left: 10px;
-  }
- #extra-change{
-    background-color: rgba(0,212,255,1);
-    margin-left: 10px;
-    color: #131313;
- }
-
+input {
+  margin-top: 21px;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(1, 0, 2);
+  border: 1px solid white;
+  border-radius: 20px;
+  color: #faf8f6;
+}
+::placeholder {
+  /* font-size: 500px; */
+  color: rgb(255, 254, 254);
+  padding-left: 10px;
+}
+#extra-change {
+  background-color: rgba(0, 212, 255, 1);
+  margin-left: 10px;
+  color: #131313;
+}
+/* todays-free-service-section-end-here */
 
 /* footer-section-sstyle-start-here */
 
-.footer-bar{
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    background-color: red;
-    margin: 0 auto;
-   margin-top: 120px;
-   background: #FFF4E7;
-   font-weight: 400;
-   font-size: 18px;
-   border-radius: 8px;
-   color: #424242;
-
+.footer-bar {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 120px;
+  background: #fff1e0;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #424242;
 }
 /* footer-section-style-end-here */
-
