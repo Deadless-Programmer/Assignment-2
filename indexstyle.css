@@ -326,6 +326,7 @@ input{
     background-color: rgb(1, 0, 2);
     border: 1px solid white;
     border-radius: 20px;
+    color: #faf8f6;
     
     
   }
@@ -337,6 +338,7 @@ input{
  #extra-change{
     background-color: rgba(0,212,255,1);
     margin-left: 10px;
+    color: #131313;
  }
 
 
